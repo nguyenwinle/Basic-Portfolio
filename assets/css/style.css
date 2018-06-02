@@ -1,0 +1,21 @@
+
+
+nav {
+    background: white;
+}
+
+.name {
+    background: white;
+}
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.navigation {
+    float: right;
+}
+
+footer {
+    text-align: center;
+}
