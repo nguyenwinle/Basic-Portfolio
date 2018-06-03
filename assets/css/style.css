@@ -1,21 +1,106 @@
+body {
+    background-color: lightgray;
+}
 
+.top {
+    background-color: white;
+}
 
 nav {
-    background: white;
+    height: 60px;
+    background-color: white;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+
 }
 
-.name {
-    background: white;
+h1 {
+    font-size: 20px;
+    font-weight: bold;
 }
+
+.about {
+    color: teal;
+    padding: 10px 0px 10px 0px;
+}
+
+.pic {
+    width: 120px;
+    height: 100px;
+    float: left; 
+    padding: 10px 20px 10px 0px;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+
+}
+
 .container {
     margin: 0 auto;
-    width: 900px;
+    width: 960px;
+
 }
 
-.navigation {
+.middle {
+    background-color: lightgray;
+    clear: both;
+   height: 100%;
+
+
+}
+
+.content {
+    position: relative;
+    top: 40px;
+    background-color: white;
+    padding: 20px;
+}
+
+.clearfix::after {
+    content:  "";
+    display: block;
+    clear: both;
+
+}
+
+.logo {
+    color: white;
+    background-color: teal;
+    float: left;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: gray;
+}
+
+.links {  
+    color: gray;  
+    padding: 20px 0px 20px 0px;
     float: right;
 }
 
+.main {
+    background-color: white;
+    margin: 40px 0px 40px 0px;
+    padding: 20px;
+
+}
+
 footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: gray;
     text-align: center;
+    padding-top: 30px;
+    border-top: solid teal 3px;
+
 }
