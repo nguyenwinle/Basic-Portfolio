@@ -1,66 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+        <meta charset="UTF-8">
+        <title>Nguyen's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">    
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
+
     <body>
         <nav>
-            <div class = "name">
-                <h1>Nguyen 'Win' Le</h1>               
-            </div>
+            <div class = "container">
+                <h1 class = "logo">Nguyen Le</h1>               
 
-            <div class = "navigation">
-                <a href = "#">About</a> |
-                <a href = "/portfolio.html">Portfolio</a> |
-                <a href = "/contact.html">Contact</a>                
-            </div>
+            <div class = "links">
 
+                <a href = "about.html">About</a> |
+                <a href = "portfolio.html">Portfolio</a> |
+                <a href = "contact.html">Contact</a>                
+            </div>
+            </div>
         </nav>
 
-        <div class = "Contact">
-            <h1>Portfolio</h1>
-            <hr>
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <nav>
-            <div class = "name">
-                <h1>Nguyen 'Win' Le</h1>               
-            </div>
-
-            <div class = "navigation">
-                <a href = "#">About</a> |
-                <a href = "/portfolio.html">Portfolio</a> |
-                <a href = "/contact.html">Contact</a>                
-            </div>
-
-        </nav>
-
-        <div class = "about">
-            <h1>Portfolio</h1>
-            <hr>
-            
-            <form>
-                Name
-             <input>
-             Email
-             <input>
-                Message
-                <button>
-                
-                </button>
-            </form>
-        </div>
-
-        <footer>
-            <p>Copyright @ Nguyen Le</p>
-        </footer>
-    </body>
-</html>
-        </div>
+        <div class = "middle">
+            <div class = "container">
+                <div class = "content clearfix">
+                    <h1 class = "contact">Contact</h1>
+                    <hr />
+                    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                        Name<br>
+                        <input type="text" name="name" placeholder="Full Name"><br>
+                        Email<br>
+                        <input type="text" name="mail" placeholder="example@gmail.com"><br>
+                        Message<br>
+                        <input type="text" name="comment" size="500"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div> 
+       </div>
 
         <footer>
             <p>Copyright @ Nguyen Le</p>
