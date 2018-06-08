@@ -1,42 +1,44 @@
 body {
-    background-color: lightgray;
-
-}
-
-.top {
-    background-color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
 
 }
 
 nav {
     height: 60px;
-    background-color: white;
-    -webkit-box-shadow: 0 4px 6px -6px #222;
-    -moz-box-shadow: 0 4px 6px -6px #222;
-    box-shadow: 0 4px 6px -6px #222;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 4px 6px -6px #cccccc;
+    -moz-box-shadow: 0 4px 6px -6px #cccccc;
+    box-shadow: 0 4px 6px -6px;
 
 }
 
 h1 {
+    color: #ffffff;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 
 }
 
 .about {
-    color: teal;
+    color: #4aaaa5;
     padding: 10px 0px 10px 0px;
 
 }
 
 .portfolio {
-    color: teal;
+    color: #4aaaa5;
     padding: 10px 0px 10px 0px;
 
 }
 
 .contact {
-    color: teal;
+    color: #4aaaa5;
     padding: 10px 0px 10px 0px;
 
 }
@@ -57,7 +59,7 @@ h1 {
 .box {
     position: relative;
     float: left;
-    background-color: white;
+    background-color: #ffffff;
 
 }
 
@@ -65,10 +67,11 @@ h1 {
     position: absolute;
     bottom: 20px;
     width: 200px;
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa5;
+    color: #ffffff;
     text-align: center;
     padding: 20px 0px 20px 0px;
+
 }
 
 p {
@@ -84,18 +87,18 @@ p {
 }
 
 .middle {
-    background-color: lightgray;
+
     clear: both;
-
-
 
 }
 
 .content {
     position: relative;
     top: 40px;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
+    border: solid 1px #dddddd;
+
 }
 
 .clearfix::after {
@@ -106,35 +109,51 @@ p {
 }
 
 .logo {
-    color: white;
-    background-color: teal;
+    color: #ffffff`;
+    background-color: #4aaaa5;
     float: left;
     padding: 20px;
+
 }
 
 a {
     text-decoration: none;
     padding: 10px 10px 10px 10px;
     color: gray;
+
 }
 
-.links {  
+a:hover {
+    color: black;
+
+}
+
+a:active {
+    color: #4aaaa5;
+
+}
+
+li {  
     color: gray;  
     padding: 20px 0px 20px 0px;
     float: right;
+
 }
 
 .main {
-    background-color: white;
+    background-color: #ffffff`;
     margin: 40px 0px 40px 0px;
     padding: 20px;
 
 }
+
 input {
     margin: 0px 0px 10px 0px;
+
 }
 input[type=text] {
     width: 100%;
+
 }
 
 input[name=comment] {
@@ -143,8 +162,8 @@ input[name=comment] {
 }
 
 input[type=submit] {
-    color: white;
-    background-color: teal;
+    color: #ffffff`;
+    background-color: #4aaaa5;
     padding: 5px 15px 5px 15px;
 
 
@@ -154,10 +173,10 @@ footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    color: white;
-    background-color: gray;
+    color: #ffffff;
+    background-color: #666666;
     text-align: center;
     padding-top: 30px;
-    border-top: solid teal 3px;
+    border-top: solid #4aaaa5 3px;
 
 }
